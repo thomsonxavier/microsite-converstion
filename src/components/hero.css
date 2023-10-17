@@ -1,0 +1,22 @@
+/* Custom CSS to style the Splide pagination */
+
+/* Style the bullet (dot) */
+.splide__pagination__page {
+    background-color: #ff0000; /* Change to your desired color */
+    border-radius: 50%; /* Make the bullet round */
+    width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+    margin: 0 5px; /* Add spacing between bullets */
+  }
+  
+  /* Style the active bullet (dot) */
+  .splide__pagination__page.is-active {
+    background-color: #00ff00; /* Change to your desired active color */
+  }
+  
+  /* Style the pagination container (if needed) */
+  .splide__pagination {
+    text-align: center; /* Center the pagination */
+    margin-top: 10px; /* Adjust the top margin as needed */
+  }
+  

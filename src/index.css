@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,800;1,100;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .blueText{color: #255BE3;}
+.smallText{font-size: 12px;letter-spacing: 6px;margin-bottom: 10px;display: block;text-transform: uppercase;color:
+#255BE3;}
+
+h2{
+  font-size: 32px;
+    letter-spacing: -0.83px;
+    margin-bottom: 20px;
+}
+.splide__pagination__page {
+  background-color: #ff0000; /* Change to your desired color */
+  border-radius: 50%; /* Make the bullet round */
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+  margin: 0 5px; /* Add spacing between bullets */
+}
+
+/* Style the active bullet (dot) */
+.splide__pagination__page.splide__pagination__page--active {
+  background-color: #00ff00; /* Change to your desired active color */
+}
+
+/* Style the pagination container (if needed) */
+.splide__pagination {
+  text-align: center; /* Center the pagination */
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+}
+
+
+
+
